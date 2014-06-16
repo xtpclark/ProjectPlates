@@ -8,14 +8,12 @@ various CNC processes.
 My personal favorite and primary system is DataCAD (http://www.datacad.com). As of June 15, 2014 I am using DataCAD Version 11.
 Other systems being used are SolidWorks and various other systems. DataCAD can import/export .DWG, .DXF, etc and also has excellent 3D support.
 </p>
-
 <h3>Project Standards</h3>
 <p>
 <br><b>Layer Names:</b> Cut Layers are to be named 'CUT' - this is to easily support TurboNest. Lockformer Vulcan AFAIK does not care what the layers are named. When working with a shop, please be sure to find out what NC software they're using. This makes life easier.
-<br><b>File Names:</b>
+<br><b>File Names:</b> These should reflect the part numbering sheme. Ultimately, these files will be attached to the saleable item, so it helps that they are the same prefix...
 <br><b>Misc:</b> Cut file drawings should only have one part, or relation of parts.
-
-<b>Folder Layout:</b>
+<br><b>Folder Layout:</b>
 <pre>
 AEC: Initial Commits for DataCAD Generated Files
 DWG: AutoCAD formatted files

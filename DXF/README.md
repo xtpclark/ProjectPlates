@@ -8,6 +8,8 @@ The following Part Cutfiles are being tested:
 |   `-- CrossMember-Falcon-T5.dxf
 |-- Ford-60-1-375-WRENCH
 |   `-- FORD-60-WRENCH.dxf
+|-- Ford-60-LiftPlate
+|   `-- LiftPlate.dxf
 |-- HeaderFlange-200
 |   |-- HeaderFlange-200-BlockOff.dxf
 |   |-- HeaderFlange-200-DoubleRound.dxf

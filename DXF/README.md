@@ -9,6 +9,8 @@ The following Part Cutfiles are being tested:
 |-- Ford-60-1-375-WRENCH
 |   `-- FORD-60-WRENCH.dxf
 |-- Ford-60-LiftPlate
+|   |-- LiftPlate-D043-01.dxf
+|   |-- LiftPlate-D043.dxf
 |   `-- LiftPlate.dxf
 |-- HeaderFlange-200
 |   |-- HeaderFlange-200-BlockOff.dxf

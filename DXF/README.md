@@ -7,7 +7,8 @@ The following Part Cutfiles are being tested:
 |-- Falcon-CrossMember-T5
 |   `-- CrossMember-Falcon-T5.dxf
 |-- Ford-60-1-375-WRENCH
-|   `-- FORD-60-WRENCH.dxf
+|   |-- 60-IPR-CROWSFOOT.dxf
+|   |-- 60-IPR-WRENCH.dxf
 |-- Ford-60-LiftPlate
 |   |-- LiftPlate-D043-01.dxf
 |   |-- LiftPlate-D043.dxf

@@ -3,8 +3,29 @@ ProjectPlates
 ProjectPlates.
 This is a CAD project for old car parts. The goal is to produce quality DXF's for 
 various CNC processes.
+<h3>CAD System</h3>
+<p>
+My personal favorite and primary system is DataCAD (http://www.datacad.com). As of June 15, 2014 I am using DataCAD Version 11.
+Other systems being used are SolidWorks and various other systems. DataCAD can import/export .DWG, .DXF, etc and also has excellent 3D support.
+</p>
 
-<h2>Numbering System:</h2>
+<h3>Project Standards</h3>
+<p>
+<br><b>Layer Names:</b> Cut Layers are to be named 'CUT' - this is to easily support TurboNest. Lockformer Vulcan AFAIK does not care what the layers are named. When working with a shop, please be sure to find out what NC software they're using. This makes life easier.
+<br><b>File Names:</b>
+<br><b>Misc:</b> Cut file drawings should only have one part, or relation of parts.
+
+<b>Folder Layout:</b>
+<pre>
+AEC: Initial Commits for DataCAD Generated Files
+DWG: AutoCAD formatted files
+DXF: DXF Exports of parts
+PDF: PDF documentation of either the cut file or a dimensioned drawing
+</pre>
+</p>
+
+<h3>Numbering System</h3>
+<p>
 The numbering system we're employing is based on the decades old FoMoCo designation.
 
 From fordification website: http://www.fordification.com/tech/partnumbers_overview.htm
@@ -24,7 +45,7 @@ parts from Ford of Europe (code R) are identified with their product line code i
 
 The fourth character indicates the part source, whether it is product engineering office or service part.
 </p>
-<h2>First Digit: Decade      (EXAMPLE: <b>_C_</b>5ZZ)</h2>
+<h3>First Digit: Decade Ex.: <b>_C_</b>5ZZ)</h3>
 <pre>
 A = 1940's (often omitted)
 B = 1950's
@@ -35,11 +56,11 @@ F = 1990's
 G = 2000's
 H = 2010's
 </pre>
-<h2>Second Digit: Year Number  (EXAMPLE: C<b>_5_</b>ZZ)</h2>
+<h3>Second Digit: Year Number  (Ex.: C<b>_5_</b>ZZ)</h3>
 Last digit of year of introduction or revision. 
 This number corresponds to the decade shown in the first digit. Thus C5 = 1965.
 </p>
-<h2>Third Digit: Model      (EXAMPLE: C5<b>_Z_</b>Z)</h2>
+<h3>Third Digit: Model      (Ex.: C5<b>_Z_</b>Z)</h3>
 <pre>
 A = Ford (Generic) / Galaxie (1958-later)
 B = Bronco (1970-73), Maverick (1975-77), Fairmont (1978-83)
@@ -77,7 +98,7 @@ Z = Mustang 1964-73; Mustang II 1974-78; Mustang 1979-later
 8 = Capri (U.S. Parts) (1972-75)
 9 = Turbine Engine Parts (1970-75)
 </pre>
-<h2>Fourth Digit:  Design Engineering Office       (EXAMPLE: C5Z<b>_Z_</b>)</h2>
+<h3>Fourth Digit:  Design Engineering Office       (Ex.: C5Z<b>_Z_</b>)</h3>
 <pre>
 A = Light Truck Engineering Division
 B = Body and Electrical Product Division
@@ -105,7 +126,7 @@ X = Emissions, Economy and Special Vehicle Engineering (Muscle Car Parts)
 Y = Lincoln/Mercury Service Parts
 Z = Ford Service Parts
 </pre>
-<h2>The Basic Part Number</h2>
+<h3>The Basic Part Number</h3>
 <p>
 Regardless of whether it's an engineering or a service part number the basic part 
 number will be the same. A basic part number is included within the casting 
@@ -147,14 +168,14 @@ Other body code designations are as follows:
 91-99 = Bronco
 </pre>
 
-<h2>Suffix</h2>
+<h3>Suffix</h3>
 <p>
 A part-number suffix generally tells you the change level of a part, regardless of whether it is applied to the casting, the finished part or the service part. A suffix of A applies to a part produced as it was originally designed, B indicates it was changed once, C indicates it was changed twice and right through the alphabet in sequence, excluding the letter I. When the alphabet as been gone through once, the suffix grows to two letters and starts over as AA, AB, AC and so on.
 How does a change affect the other two numbers? A service part and its number can change independently of the casting part and its number simply because it comes after these two in the scheme of things. Using the same reasoning, a finished, or engineering part can change independently of the casting, but not of the service part. A casting affects both the finished and the service parts. This is why the suffixes of all three numbers rarely match.
 However, sometimes a single letter indicates specific application. For example: 9425-A is an intake manifold for a 289-2V engine, whereas a 9425-B is for a 289-4V engine, and a 9425-C is for a 351C-4V engine.
 The suffix can also refer to the color or finish of the part, or the left- or right-hand use of a part. In most cases if the part is for left-hand use, the basic number ends in a odd number and the basic number for the right-hand part ends in a even number. For example, the 1969 Mustang front fender wheelhouse molding C9ZZ-16038-A  is the right-hand molding and C9ZZ-16039-A is the left-hand molding. Notice there is no body code in front of the basic number 16038. The reason for this is that a change in body style did not effect the application of this part...that is, all '69 Mustang body styles used the same wheelhouse molding.
 </p>
-<h2>See Also</h2>
+<h3>See Also</h3>
 Basic Part Numbers - Regular Parts<br>
 http://www.fordification.com/tech/partnumbers_regular.htm
 </html>

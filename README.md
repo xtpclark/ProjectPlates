@@ -1,13 +1,13 @@
 ProjectPlates
 =============
-
+<pre>
 ProjectPlates.
 This is a CAD project for old car parts. The goal is to produce quality DXF's for various CNC processes.
 
 Numbering System:
 The numbering system we're employing is based on the decades old FoMoCo designation.
 
-Ford http://www.fordification.com/tech/partnumbers_overview.htm
+From fordification website: http://www.fordification.com/tech/partnumbers_overview.htm
 The four-digit alphanumeric prefix tells the year the part was released for production, the vehicle line the part was originally released for and by what Ford engineering division (chassis, engine, body, etc.) or in the case of a service parts, the Ford car division the part is for - Ford or Lincoln-Mercury.
 
 The first character of the prefix indicates the decade of design, starting with "A" for the 1940's, B for the 1950's, C for the 1960's.
@@ -100,41 +100,35 @@ Z = Ford Service Parts
 The Basic Part Number
 
 
-     Regardless of whether it's an engineering or a service part number the basic part number will be the same. A basic part number is included within the casting number and indicates what the part is, not what it was made for or when it was made. An example could be a master cylinder - most master cylinders have a basic part number of 2140, but there a number of different master cylinders for different Ford vehicles. They all are master cylinders however, and share a basic part number. For example, 6049 is for all cylinder heads, 6303 is for crankshafts and 6010 is for blocks. The number for the casting used for machining these parts is different. Referring to the cylinder head again, the basic finished part number is 6049, whereas it's casting number is 6090. Because it is relatively easy to put a casting number on a part while it is being case, it's the casting number that appears on the part - great for them and terrible for the guy trying to identify a part. Also, the number that appears on a casting may not include the basic casting number for the simple reason that you don't need a number to tell you you are looking at a block or intake manifold. The number generally consists only of the prefix and the suffix, or C70E-C for the cylinder head.
+Regardless of whether it's an engineering or a service part number the basic part number will be the same. A basic part number is included within the casting number and indicates what the part is, not what it was made for or when it was made. An example could be a master cylinder - most master cylinders have a basic part number of 2140, but there a number of different master cylinders for different Ford vehicles. They all are master cylinders however, and share a basic part number. For example, 6049 is for all cylinder heads, 6303 is for crankshafts and 6010 is for blocks. The number for the casting used for machining these parts is different. Referring to the cylinder head again, the basic finished part number is 6049, whereas it's casting number is 6090. Because it is relatively easy to put a casting number on a part while it is being case, it's the casting number that appears on the part - great for them and terrible for the guy trying to identify a part. Also, the number that appears on a casting may not include the basic casting number for the simple reason that you don't need a number to tell you you are looking at a block or intake manifold. The number generally consists only of the prefix and the suffix, or C70E-C for the cylinder head.
 
-     Parts that have to do with the body of the car will have the body code at the beginning of the basic part number, as in this example, D0AZ-6543720-A (a trunk weatherstripping.) 65 is the body code part of the basic number which specifies A Mustang hardtop. Other body code designations are as follows:
+Parts that have to do with the body of the car will have the body code at the beginning of the basic part number, as in this example, D0AZ-6543720-A (a trunk weatherstripping.) 65 is the body code part of the basic number which specifies A Mustang hardtop. Other body code designations are as follows:
 
-    25 = Luggage Rack
-    50 = Mercury
-    53 = Lincoln
-    54 = 4-Door
-    57 = Ford
-    60 = Ford
-    62 = 2-Door Sedan/Coupe
-    63 = 2-Door Hardtop (Mustang Fastback)
-    65 = 2-Door Hardtop (Mustang)
-
-	
-
-    66 = Ranchero
-    71 = Wagon
-    76 = Convertible
-    81 = Truck
-    83 = Truck
-    87 = Truck
-    89 = E100
-    91-99 = Bronco
+25 = Luggage Rack
+50 = Mercury
+53 = Lincoln
+54 = 4-Door
+57 = Ford
+60 = Ford
+62 = 2-Door Sedan/Coupe
+63 = 2-Door Hardtop (Mustang Fastback)
+65 = 2-Door Hardtop (Mustang)
+66 = Ranchero
+71 = Wagon
+76 = Convertible
+81 = Truck
+83 = Truck
+87 = Truck
+89 = E100
+91-99 = Bronco
 
 Suffix
 
-     A part-number suffix generally tells you the change level of a part, regardless of whether it is applied to the casting, the finished part or the service part. A suffix of A applies to a part produced as it was originally designed, B indicates it was changed once, C indicates it was changed twice and right through the alphabet in sequence, excluding the letter I. When the alphabet as been gone through once, the suffix grows to two letters and starts over as AA, AB, AC and so on.
-
-     How does a change affect the other two numbers? A service part and its number can change independently of the casting part and its number simply because it comes after these two in the scheme of things. Using the same reasoning, a finished, or engineering part can change independently of the casting, but not of the service part. A casting affects both the finished and the service parts. This is why the suffixes of all three numbers rarely match.
-
-     However, sometimes a single letter indicates specific application. For example: 9425-A is an intake manifold for a 289-2V engine, whereas a 9425-B is for a 289-4V engine, and a 9425-C is for a 351C-4V engine.
-
-     The suffix can also refer to the color or finish of the part, or the left- or right-hand use of a part. In most cases if the part is for left-hand use, the basic number ends in a odd number and the basic number for the right-hand part ends in a even number. For example, the 1969 Mustang front fender wheelhouse molding C9ZZ-16038-A  is the right-hand molding and C9ZZ-16039-A is the left-hand molding. Notice there is no body code in front of the basic number 16038. The reason for this is that a change in body style did not effect the application of this part...that is, all '69 Mustang body styles used the same wheelhouse molding.
-
+A part-number suffix generally tells you the change level of a part, regardless of whether it is applied to the casting, the finished part or the service part. A suffix of A applies to a part produced as it was originally designed, B indicates it was changed once, C indicates it was changed twice and right through the alphabet in sequence, excluding the letter I. When the alphabet as been gone through once, the suffix grows to two letters and starts over as AA, AB, AC and so on.
+How does a change affect the other two numbers? A service part and its number can change independently of the casting part and its number simply because it comes after these two in the scheme of things. Using the same reasoning, a finished, or engineering part can change independently of the casting, but not of the service part. A casting affects both the finished and the service parts. This is why the suffixes of all three numbers rarely match.
+However, sometimes a single letter indicates specific application. For example: 9425-A is an intake manifold for a 289-2V engine, whereas a 9425-B is for a 289-4V engine, and a 9425-C is for a 351C-4V engine.
+The suffix can also refer to the color or finish of the part, or the left- or right-hand use of a part. In most cases if the part is for left-hand use, the basic number ends in a odd number and the basic number for the right-hand part ends in a even number. For example, the 1969 Mustang front fender wheelhouse molding C9ZZ-16038-A  is the right-hand molding and C9ZZ-16039-A is the left-hand molding. Notice there is no body code in front of the basic number 16038. The reason for this is that a change in body style did not effect the application of this part...that is, all '69 Mustang body styles used the same wheelhouse molding.
 
 Basic Part Numbers - Regular Parts
 http://www.fordification.com/tech/partnumbers_regular.htm
+</pre>

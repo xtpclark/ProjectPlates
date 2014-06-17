@@ -1,6 +1,6 @@
 DXF Directory:
 
-Parts in Testing
+Parts in Testing - These are updated frequently.
 
 The following Part Cutfiles are being tested:
 <pre>

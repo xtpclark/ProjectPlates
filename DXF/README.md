@@ -21,8 +21,11 @@ The following Part Cutfiles are being tested:
 |   |-- HeaderFlange-200-SplitRound.dxf
 |   |-- HeaderFlange-200-StockSingle.dxf
 |   `-- HeaderFlange-200-StockSplit.dxf
-|-- Mustang-CrossMember-C4
-|   `-- CrossMember-Mustang-C4.dxf
+|-- Mustang-CrossMember-C4 ** INCORRECT - THIS IS T5.
+|   `-- CrossMember-Mustang-C4.dxf ** INCORRECT - THIS IS T5.
+|-- Mustang-CrossMember-T5
+|   |-- 65-MUSTANG-T5-CROSSMEMBER-BASE.dxf
+|   `-- 65-MUSTANG-T5-CROSSMEMBER-BRACKET.dxf
 |-- Mustang-Suspension-Bracing
 |   `-- 65-66-Mustang-Outer-Shock-Tower-Reinforcement.dxf
 </pre>

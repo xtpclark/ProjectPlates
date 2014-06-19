@@ -4,12 +4,13 @@ WORKDATE=`date +%y%m%d-%s`
 RMDATE=`date`
 
 PRJDIR=$HOME/ProjectPlates
+PDFDIR=$PRJDIR/PDF
 PNGDIR=$PRJDIR/PNG
 README=$PNGDIR/README.md
 LOGDIR=$PRJDIR/LOG
 LOGFILE=${LOGDIR}/converted_$WORKDATE.log
 
-FILELIST=$(find $PRJDIR -iname '*.pdf')
+FILELIST=$(find $PDFDIR -iname '*.pdf')
 
 # echo $FILELIST
 
@@ -37,7 +38,7 @@ Images Added: $RMDATE
 <pre>
 EOF
 
-ls $PNGDIR >> $README
+ls $PNGDIR | grep .png  >> $README
 
 cat << EOF >> $README
 </pre>
